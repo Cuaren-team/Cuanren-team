@@ -1,0 +1,41 @@
+body{
+    background:url(../image/fondofaq.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+}
+
+.nav-enlace{
+    display: inline-block;
+    background: rgb(163, 178, 192);
+    color: black;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+    color: white;
+}
+.contenido{
+    display: flex;
+    margin-top: 20px;
+}
+.texto-principal{
+    background: rgb(215, 221, 161);
+    padding: 20px;
+    display: block;
+    padding-right: 346px;
+    
+}
+nav{
+    margin-left: 20px;
+    margin-right: 20px;
+    background: rgb(163, 178, 192);
+    display: flex;
+    justify-content: space-around;
+}
+.avatar{
+    margin-left: 20px;
+    margin-right: 20px; 
+}
