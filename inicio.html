@@ -7,59 +7,50 @@
     <link rel="stylesheet" href="css/estiloinicio.css">
 </head>
 <body>
-    <img class="avatar" src="img/Logo.png" alt="Logo de Parental Control">
+  <div class="menu">
+    <nav>  
+      <a href="inicio.html" class="nav-enlace">Inicio</a>
+      <a href="visitas.html" class="nav-enlace">Visitas o viajes</a>
+      <a href="faq.html" class="nav-enlace">FAQ's</a>   
+    </nav>
+  </div>
+   <img class="avatar" src="img/Logo.png" alt="Logo de Parental Control">
+
+
     <div class="information-box">
         <h1>Inicio</h1>
         <p>Parental Control es una plataforma donde los docentes de las diferentes escuelas pueden enviar la información de las visitas o viajes que realicen los alumnos de los diferentes colegios o unidades educativas de la ciudad de Santa Cruz de la Sierra. <br>En esta plataforma los padres de familia pueden aceptar o rechazar los permisos enviados por el plantel docente</p>
-    </div>
+    </div><br><br>
 
-    <div id="Avisos">
-        <nav class="menu">
-            <ul>
-                <li><a href="inicio.html">Inicio</a></li>
-                <li><a href="visitas.html">Visitas o viajes</a></li>
-                <li><a href="faq.html">FAQ's</a></li>
-            </ul>
-        </nav>
-    </div>
-    <!--Here's our main wrapper.
-Since our carousel items get their size from their parent,
-we have to specify its height.-->
-<div class="carousel-wrapper" style="height: 400px;">
-    <!--The carousel uses regular links to cycle through each item.
-    The links actually target these display: none; spans so our page doesn't
-    jump like it normally would when using jump links.-->
+
+
+  <div class="carousel-wrapper" style="height: 400px;">
+
     <span id="target-item-1"></span>
     <span id="target-item-2"></span>
     <span id="target-item-3"></span>
-    <!--Here are our carousel items.
-    Each has a 'carousel-item' class, which we use for shared styling
-    and an item-# class, which we use to control its opacity
-    depending on which target-item-# is currently targeted-->
+
     <div class="carousel-item item-1" style="background-color: khaki;">
-      <!--We can add any content in here, just make sure that
-      your .carousel-wrapper is big enough to hold all the content.-->
-      <h2>Item 1</h2>
-      <p>Content goes here.</p>
-      <!--Here are the links that control the carousel! Make sure
-      the href of each one is pointing to the right target-item-#
-      so that the carousel cycles in sequence.-->
+
+      <h2>CLASES SUSPENDIDAS EN TODOS LOS COLEGIOS</h2>
+      <img src="img/aulas.jpg" width="20%" height="60%" >
+      <p>Dada la situación provocada por el COVID 19, los diferentes colegios, unidades educactivas y escuelas decidieron la suspención de las clases de manera indefinida. Esta medida fue tomada por el gobierno de la Presidenta Añez con el objetivo de proteger y resguardar la seguridad de las familias bolivianas, tomando como prioridad a los niños.</p>
+
       <a class="arrow arrow-prev" href="#target-item-3"></a>
       <a class="arrow arrow-next" href="#target-item-2"></a>
     </div>
-    <!--And here are a couple more carousel items so that
-    we have some content to scroll to. Notice the 'light' class?
-    Royal blue is a pretty dark background color, so we'll add a CSS
-    rule to make the text white if a carousel item has this class-->
+
     <div class="carousel-item item-2 light" style="background-color: royalblue;">
-      <h2>Item 2</h2>
-      <p>Content goes here.</p>
+      <h2>COVID 19</h2>
+      <img src="img/corona.jpg" width="20%" height="60%">
+      <p>Los coronavirus son una extensa familia de virus que pueden causar enfermedades tanto en animales como en humanos. En los humanos, se sabe que varios coronavirus causan infecciones respiratorias que pueden ir desde el resfriado común hasta enfermedades más graves como el síndrome respiratorio de Oriente Medio (MERS) y el síndrome respiratorio agudo severo (SRAS). El coronavirus que se ha descubierto más recientemente causa la enfermedad por coronavirus COVID-19.</p>
       <a class="arrow arrow-prev" href="#target-item-1"></a>
       <a class="arrow arrow-next" href="#target-item-3"></a>
     </div>
-    <div class="carousel-item item-3" style="background-color: aliceblue;">
-      <h2>Item 3</h2>
-      <p>Content goes here.</p>
+    <div class="carousel-item item-3" style="background-color: rgb(95, 156, 54);">
+      <h2>VIAJES Y VISITAS SUSPENDIDAS</h2>
+      <img src="img/actividades.jpg" width="20%" height="60%">
+      <p>Los viajes por parte de los colegios, escuelas y unidades educativas quedan suspendidas, así como todas las actividades extra curriculares. La situación en el país con respecto a los nuevos casos de contagio de coronavirus ha ido en aumento durante estas semanas alcanzando un total de 1348 infectados repartidos en todo el territorio de Bolivia.</p>
       <a class="arrow arrow-prev" href="#target-item-2"></a>
       <a class="arrow arrow-next" href="#target-item-1"></a>
     </div>

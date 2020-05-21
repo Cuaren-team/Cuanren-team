@@ -70,21 +70,14 @@ body {
     font-size: 14px;
     border-radius: 20px;
 }
-
-.login-box input[type="submit"]:hover {
-    cursor: pointer;
-    background: #ffc107;
-    color: #000;
-  }
   
-  .login-box a {
+.login-box a {
     text-decoration: none;
     font-size: 12px;
     line-height: 20px;
     color: darkblue;
   }
   
-  .login-box a:hover {
+    .login-box a:hover {
     color: #fff;
   }
->>>>>>> f3f4c6c4fad3c4be442aba7749079817c0cb3336
