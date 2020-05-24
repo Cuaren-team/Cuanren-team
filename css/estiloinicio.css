@@ -11,7 +11,7 @@ body {
   width: 300px;
   height: 300px;
   position: static;
-  margin-top: 100px;
+  margin-top: 30px;
   margin-left: 100px;
   top: 200px;
   left: calc(-180% - 120px);
@@ -30,7 +30,7 @@ body {
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
 }
 
 .nav-enlace:hover {
@@ -45,7 +45,7 @@ nav {
     color: black;
     background-color: transparent;
     position: absolute;
-    transform: translate(60%, -80%);
+    transform: translate(60%, -70%);
     padding: 20px 30px;
 }
 .menu {
@@ -54,17 +54,6 @@ nav {
     border: none;
     float: none;
 }
-
-.menu ul li{
-    list-style: none;
-    float: left;
-}
-
-.menu ul li a{
-    text-decoration: none;
-    padding: 30px 30px;
-}
-
 
 .carousel-wrapper {
   position: relative;
