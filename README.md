@@ -28,5 +28,5 @@ y posteriormente "git push origin nombredelbranch" para subir los cambios a ser 
 por la misma terminal. Los cambios hechos por los colaboradores y aprobados por los mismos serán actualizados en esta terminal.
 - El cuarto paso es la creación de la base de datos a partir de la descarga de la aplicación MAMP que es una combinación de Apache, mySQL y la nube. Cuando se descarga el software MAMP se crea por defecto una 
 carpeta en el disco local C, el cual contiene una carpeta llamada htdocs donde debes colocar el proyecto y todos sus archivos tanto de html y de php.
-- El cuarto paso es la descarga de Visio Profesional, esta herramienta nos sirve para poder realizar el dieño de los diagramas requeridos para la interpretación del proyecto. Diagramas como el de base de datos, 
+- El quinto paso es la descarga de Visio Profesional, esta herramienta nos sirve para poder realizar el dieño de los diagramas requeridos para la interpretación del proyecto. Diagramas como el de base de datos, 
 el diagrama orientado a objetos y los diagramas de secuencia fueron elaborados con la ayuda de esta herramienta.
