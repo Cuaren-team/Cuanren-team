@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Crear Visita o viaje</title>
+    <link rel="stylesheet" href="css/crearvisita.css">
 </head>
 <body>
-    
+    <div class="menu">
+        <nav>  
+          <a href="inicio.html" class="nav-enlace">Inicio</a>
+          <a href="visitas.html" class="nav-enlace">Visitas o viajes</a>
+          <a href="faq.html" class="nav-enlace">FAQ's</a>   
+        </nav>
+      </div>
+       
+    <img class="avatar" src="img/Logo.png" alt="Logo de Parental Control">
+    <form action="visita.php" method="POST">
+        <h1>Crear Visita o viaje</h1>
+        <label for="lugar">Lugar:</label><br>
+        <input type="text" id="lugar" placeholder="Introduce el lugar del viaje o visita" required><br>
+        <label for="fecha">Fecha:</label><br>
+        <input type="date" id="" placeholder="Introduce la fecha del viaje o visita" required><br>
+        <label for="curso">Curso:</label><br>
+        <input type="text" id="curso" placeholder="Introduce el curso" required><br>
+        <label for="encargado">Encargado:</label><br>
+        <input type="text" id="encargado" placeholder="Introduce la persona a cargo del viaje o visita" required><br>
+        <label for="horario">Horario:</label><br>
+        <input type="text" id="horario" placeholder="Introduce el horario del viaje o visita" required><br>
+        <label for="merienda">Merienda:</label><br>
+        <input type="text" id="merienda" placeholder="Introduce si los alumnos requieren una merienda"><br>
+        <label for="recoger">Recoger de:</label><br>
+        <input type="text" id="recoger" placeholder="Introduce de donde recogerán los padres a sus hijos" required><br><br><br>
+        <input type="submit" value="Enviar"><br>
+    </form> 
 </body>
 </html>
